@@ -1,0 +1,187 @@
+@font-face {
+	font-family: 'fis-icons';
+	src:url('fonts/fis-icons.eot?r7xdnw');
+	src:url('fonts/fis-icons.eot?#iefixr7xdnw') format('embedded-opentype'),
+		url('fonts/fis-icons.ttf?r7xdnw') format('truetype'),
+		url('fonts/fis-icons.woff?r7xdnw') format('woff'),
+		url('fonts/fis-icons.svg?r7xdnw#fis-icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="fis-"], [class*=" fis-"] {
+	font-family: 'fis-icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+    font-size: 100px;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.fis-seg-trab:before {
+	content: "\e600";
+}
+.fis-logistica:before {
+	content: "\e601";
+}
+.fis-fis-unicolor:before {
+	content: "\e602";
+}
+.fis-fislogocolor .path1:before {
+	content: "\e603";
+	color: rgb(238, 38, 73);
+}
+.fis-fislogocolor .path2:before {
+	content: "\e604";
+	margin-left: -1em;
+	color: rgb(238, 38, 73);
+}
+.fis-fislogocolor .path3:before {
+	content: "\e605";
+	margin-left: -1em;
+	color: rgb(238, 38, 73);
+}
+.fis-fislogocolor .path4:before {
+	content: "\e606";
+	margin-left: -1em;
+	color: rgb(0, 139, 191);
+}
+.fis-fislogocolor .path5:before {
+	content: "\e607";
+	margin-left: -1em;
+	color: rgb(0, 139, 191);
+}
+.fis-fislogocolor .path6:before {
+	content: "\e608";
+	margin-left: -1em;
+	color: rgb(0, 139, 191);
+}
+.fis-fislogocolor .path7:before {
+	content: "\e609";
+	margin-left: -1em;
+	color: rgb(0, 139, 191);
+}
+.fis-fislogocolor .path8:before {
+	content: "\e60a";
+	margin-left: -1em;
+	color: rgb(0, 139, 191);
+}
+.fis-fislogocolor .path9:before {
+	content: "\e60b";
+	margin-left: -1em;
+	color: rgb(0, 139, 191);
+}
+.fis-fislogocolor .path10:before {
+	content: "\e60c";
+	margin-left: -1em;
+	color: rgb(238, 38, 73);
+}
+.fis-instagram:before {
+	content: "\e60d";
+}
+.fis-hashtag:before {
+	content: "\e60e";
+}
+.fis-calendario .path1:before {
+	content: "\e60f";
+	color: rgb(7, 139, 191);
+}
+.fis-calendario .path2:before {
+	content: "\e610";
+	margin-left: -1em;
+	color: rgb(7, 139, 191);
+}
+.fis-calendario .path3:before {
+	content: "\e611";
+	margin-left: -1em;
+	color: rgb(7, 139, 191);
+}
+.fis-calendario .path4:before {
+	content: "\e612";
+	margin-left: -1em;
+	color: rgb(236, 42, 74);
+}
+.fis-calendario .path5:before {
+	content: "\e613";
+	margin-left: -1em;
+	color: rgb(236, 42, 74);
+}
+.fis-calendario .path6:before {
+	content: "\e614";
+	margin-left: -1em;
+	color: rgb(236, 42, 74);
+}
+.fis-tv .path1:before {
+	content: "\e615";
+	color: rgb(7, 139, 191);
+}
+.fis-tv .path2:before {
+	content: "\e616";
+	margin-left: -1em;
+	color: rgb(7, 139, 191);
+}
+.fis-tv .path3:before {
+	content: "\e617";
+	margin-left: -1em;
+	color: rgb(7, 139, 191);
+}
+.fis-tv .path4:before {
+	content: "\e618";
+	margin-left: -1em;
+	color: rgb(236, 42, 74);
+}
+.fis-tv .path5:before {
+	content: "\e619";
+	margin-left: -1em;
+	color: rgb(236, 42, 74);
+}
+.fis-tv .path6:before {
+	content: "\e61a";
+	margin-left: -1em;
+	color: rgb(236, 42, 74);
+}
+.fis-farmacia:before {
+	content: "\e61b";
+}
+.fis-contruodeedificios:before {
+	content: "\e61c";
+}
+.fis-redesdecomputadores:before {
+	content: "\e61d";
+}
+.fis-administrao:before {
+	content: "\e61e";
+}
+.fis-cinciascontabeis:before {
+	content: "\e61f";
+}
+.fis-enfermagem .path1:before {
+	content: "\e620";
+	color: rgb(7, 139, 191);
+}
+.fis-enfermagem .path2:before {
+	content: "\e621";
+	margin-left: -1em;
+	color: rgb(7, 139, 191);
+}
+.fis-enfermagem .path3:before {
+	content: "\e622";
+	margin-left: -1em;
+	color: rgb(7, 139, 191);
+}
+.fis-enfermagem .path4:before {
+	content: "\e623";
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
+}
+.fis-fisioterapia:before {
+	content: "\e624";
+}
+.fis-direito:before {
+	content: "\e625";
+}

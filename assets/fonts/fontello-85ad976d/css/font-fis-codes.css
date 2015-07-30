@@ -1,0 +1,21 @@
+
+.icon-const-c:before { content: '\e800'; } /* '' */
+.icon-const-b:before { content: '\e801'; } /* '' */
+.icon-adm-c:before { content: '\e802'; } /* '' */
+.icon-adm-b:before { content: '\e803'; } /* '' */
+.icon-cont-b:before { content: '\e804'; } /* '' */
+.icon-cont-c:before { content: '\e805'; } /* '' */
+.icon-direito-b:before { content: '\e806'; } /* '' */
+.icon-enferm-b:before { content: '\e807'; } /* '' */
+.icon-enferm-c:before { content: '\e808'; } /* '' */
+.icon-farm-b:before { content: '\e809'; } /* '' */
+.icon-direito-c:before { content: '\e80a'; } /* '' */
+.icon-farm-c:before { content: '\e80b'; } /* '' */
+.icon-log-b:before { content: '\e80c'; } /* '' */
+.icon-log-c:before { content: '\e80d'; } /* '' */
+.icon-fisio-b:before { content: '\e80e'; } /* '' */
+.icon-redes-b:before { content: '\e80f'; } /* '' */
+.icon-redes-c:before { content: '\e810'; } /* '' */
+.icon-seg-c:before { content: '\e811'; } /* '' */
+.icon-fisio-c:before { content: '\e812'; } /* '' */
+.icon-seg-b:before { content: '\e813'; } /* '' */
