@@ -64,8 +64,8 @@ get_header(); ?>
 <div class="col s12 m6 l6"><!-- Cards Coluna Principal -->
   <!-- faco o loop so da categoria 20 e trago 1 so post -->
   
- <div class="card">
- <a href="prouni" title="PROUNI">
+ <div class="card"
+> <a href="prouni" title="PROUNI">
     <div class="card-image waves-effect waves-block waves-light">
      <img alt="Icone PROUNI" src="<?php echo get_template_directory_uri(); ?>/assets/images/Post-ProUni.png" style="height: 185px;">
     </div>
@@ -89,22 +89,37 @@ get_header(); ?>
 
 
 <div class="col s12 m6 l6"><!-- Cards Coluna Principal -->
+
+<div class="card">
+        <div class="card-content blue darken-1">
+          <span class="card-title  text-darken-4">TV FIS<i class="material-icons alinha-icone right">live_tv</i></span>
+        </div>
+          <div class="video-container no-controls">
+          <iframe width="853" height="480" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0;autohide=1" style="border:0;" allowfullscreen></iframe>
+        </div>
+      </div>
+
+
    <div class="card">
         <div class="card-content  blue darken-1 ">
-          <span class="card-title ">Calendário Acadêmico<i class="material-icons right">perm_contact_calendar</i>
+          <span class="card-title menor">Calendário Acadêmico<i class="material-icons alinha-icone right">perm_contact_calendar</i>
           
           
           </span>
         </div>
       <?php if ( dynamic_sidebar('calendario_fis') ) : else : endif; ?>
       </div>
+
+   
+
+
 </div><!-- Cards Coluna Principal -->
 
 <div class="col s12 m6 l6">
 
 <div class="card">
         <div class="card-content blue darken-1">
-          <span class="card-title white-text text-darken-4">Últimas Notícias<i class="material-icons alinha-icone right">today</i></span>
+          <span class="card-title white-text text-darken-4 menor">Últimas Notícias<i class="material-icons alinha-icone right">today</i></span>
         </div>  
 
       <?php 
@@ -179,7 +194,7 @@ get_header(); ?>
   <div class="card">
           <div class="card-content blue darken-1">
 
-          <span class="card-title menor">Departamentos<i class="material-icons alinha-icone right">account_balance</i></i></span>
+          <span class="card-title menor">Departamentos<i class="material-icons alinha-icone right">account_balance</i></span>
         </div>
         
         <div class="collection white">
@@ -243,7 +258,7 @@ get_header(); ?>
          
                <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <div class="row">
-      <h4 class="white-text darken-2 light center">ENSINO</h4><br>
+      <h4 class="white-text darken-2 light center-align">ENSINO</h4><br>
                      <div class="col s12 grade">
                         <ul class="tabs">
                            <li class="tab col s3 blue-text text-darken-2"><a class="active" href="#graduacao"><b>Bacharelado</b></a></li>
@@ -314,7 +329,7 @@ get_header(); ?>
 
 <div class="card">
         <div class="card-content blue darken-1">
-          <span class="card-title white-text">Faceb ook<i class="mdi-navigation-more-vert right"></i></span>
+          <span class="card-title white-text">Facebook<i class="mdi-navigation-more-vert right"></i></span>
         </div>
           <div class="video-container no-controls">
           <iframe width="853" height="480" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0;autohide=1" style="border:0;" allowfullscreen></iframe>
@@ -336,8 +351,8 @@ get_header(); ?>
 <div class="col s12 m6 l4">
 
 <div class="card">
-        <div class="card-content">
-          <span class="card-title grey-text text-darken-4">Instagran #FIS<i class="mdi-navigation-more-vert right"></i></span>
+        <div class="card-content blue darken-1">
+          <span class="card-title white-text text-darken-4 ">Instagran #FIS<i class="mdi-navigation-more-vert right"></i></span>
         </div>
           <div class="video-container no-controls">
           <?php if ( dynamic_sidebar('insta_fis') ) : else : endif; ?>
