@@ -87,15 +87,18 @@ get_header(); ?>
 </div><!-- row -->
 <div class="row"><!-- Inicio linha2 -->
 
-<div class="col s12 m6 l6"><!-- Bloco de 3 Materias Principais - Primeira coluna -->
-  <div class="card">
-        <div class="card-content  blue darken-1">
-          <span class="card-title  text-darken-4">TV FIS<i class="material-icons alinha-icone right">live_tv</i></span>
-        </div>
-         <?php if ( dynamic_sidebar('tv_fis') ) : else : endif; ?>
-      </div>
-</div><!-- FIM :: Bloco de 3 Materias Principais - Primeira coluna -->
 
+<div class="col s12 m6 l6"><!-- Cards Coluna Principal -->
+   <div class="card">
+        <div class="card-content  blue darken-1 ">
+          <span class="card-title ">Calendário Acadêmico<i class="material-icons right">perm_contact_calendar</i>
+          
+          
+          </span>
+        </div>
+      <?php if ( dynamic_sidebar('calendario_fis') ) : else : endif; ?>
+      </div>
+</div><!-- Cards Coluna Principal -->
 
 <div class="col s12 m6 l6">
 
@@ -136,9 +139,10 @@ get_header(); ?>
  <div class="col s12 m12 l3 "><!-- Conteudo Principal :: Acaba antes do parallax com os icones dos cursos -->
  
 <div class="col s12 m6 l12"><!-- Cards Coluna Principal -->
+ <?php if ( dynamic_sidebar('search') ) : else : endif; ?>
  <div class="card">
        <div class="card-content  blue darken-1" style=" padding-right: 15px;">
-          <span class="card-title activator text-darken-4">Portal Acadêmico <i class="material-icons alinha-icone right">perm_identity</i></span>
+          <span class="card-title activator text-darken-4 menor">Portal Acadêmico <i class="material-icons alinha-icone right">perm_identity</i></span>
         </div>
  
        
@@ -148,15 +152,12 @@ get_header(); ?>
               <input id="usuario" type="text" class="validate">              
               <label for="password">Usuário</label>
             </div>
-          </div>
-          <div class="row">
+          
             <div class="input-field col s12">
               <input id="password" type="password" class="validate">
               <label for="email">Senha</label>
             </div>
-          </div>
-          <div class="row">
-            <p>
+           
               <input class="text-left" value="aluno" name="group1" type="radio" id="test1" />
               <label for="test1">Aluno</label>
             
@@ -178,7 +179,7 @@ get_header(); ?>
   <div class="card">
           <div class="card-content blue darken-1">
 
-          <span class="card-title">Departamentos<i class="material-icons alinha-icone right">account_balance</i></i></span>
+          <span class="card-title menor">Departamentos<i class="material-icons alinha-icone right">account_balance</i></i></span>
         </div>
         
         <div class="collection white">
@@ -307,13 +308,13 @@ get_header(); ?>
  
 
 
-<div class="row red-fis"><!-- Inicio linha4 -->
- <h4 class="blue-text darken-2 light center">FIS na Mídia</h4><br>
+<div class="row white"><!-- Inicio linha4 -->
+ <h4 class="blue-text darken-2 light center">FIS nas Redes Sociais</h4><br>
 <div class="col s12 m6 l4">
 
 <div class="card">
-        <div class="card-content">
-          <span class="card-title grey-text text-darken-4">TV FIS<i class="mdi-navigation-more-vert right"></i></span>
+        <div class="card-content blue darken-1">
+          <span class="card-title white-text">Faceb ook<i class="mdi-navigation-more-vert right"></i></span>
         </div>
           <div class="video-container no-controls">
           <iframe width="853" height="480" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0;autohide=1" style="border:0;" allowfullscreen></iframe>
@@ -322,18 +323,14 @@ get_header(); ?>
 
 </div>
 
-<div class="col s12 m6 l4"><!-- Cards Coluna Principal -->
-   <div class="card">
-        <div class="card-content  blue darken-1 ">
-          <span class="card-title ">Calendário Acadêmico<i class="material-icons right">perm_contact_calendar</i>
-          
-          
-          </span>
+<div class="col s12 m6 l4"><!-- Bloco de 3 Materias Principais - Primeira coluna -->
+  <div class="card">
+        <div class="card-content  blue darken-1">
+          <span class="card-title  text-darken-4">TV FIS<i class="material-icons alinha-icone right">live_tv</i></span>
         </div>
-      <?php if ( dynamic_sidebar('calendario_fis') ) : else : endif; ?>
+         <?php if ( dynamic_sidebar('tv_fis') ) : else : endif; ?>
       </div>
-</div><!-- Cards Coluna Principal -->
-
+</div><!-- FIM :: Bloco de 3 Materias Principais - Primeira coluna -->
 
 
 <div class="col s12 m6 l4">

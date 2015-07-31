@@ -436,7 +436,7 @@ function arphabet_search_widgets_init() {
 	array(
 		'name'          => 'Pesquisar',
 		'id'            => 'search',
-		'placeholder' => 'Buscar',
+		
 		'before_widget' => '<div>',
 		'after_widget'  => '</div>',
 		 'before_title'  => '<h2 class="entry-title">',
