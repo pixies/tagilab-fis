@@ -82,6 +82,23 @@
 
 
                     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                     <a href="#" data-activates="buscar" class="button-collapse right "><i class="material-icons">search</i></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 				<ul class="right hide-on-med-and-down white-text"> 
 			 		<li><a class="left" href="<?php echo esc_url( home_url( '/' ) ); ?>">Início</a></li>
