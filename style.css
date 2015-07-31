@@ -237,7 +237,7 @@ nav li a  {
   .calendario {padding: 15px;}
 
   .title-cursos{font-size:large;  font-weight: 700;}
-  .menor {font-size:small ;}
+  .menor {font-size:small;}
 	.amarelo {background-color: }
 	.departamentos, .red-fis{background: #ec254c;}
   .revistas {background-color: #0277bd;}
@@ -269,6 +269,29 @@ nav li a  {
 	  
 	  }
 
+ .btn, .btn-large {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #1E88E5;
+    text-align: center;
+    letter-spacing: 0.5px;
+    transition: all 0.2s ease-out 0s;
+    cursor: pointer;
+    right: 0px;
+}
 
+ .btn:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #1E88E5;
+    text-align: center;
+    letter-spacing: 0.5px;
+    transition: all 0.2s ease-out 0s;
+    cursor: pointer;
+    margin-right: 0px;
+}
 
-
+.card .card-content {
+    padding: 4px;
+    border-radius: 0px 0px 2px 2px;
+}
