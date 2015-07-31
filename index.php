@@ -123,7 +123,7 @@ get_header(); ?>
         </div>  
 
       <?php 
-        $recent = new WP_Query("category_name=Noticias&showposts=6"); 
+        $recent = new WP_Query("category_name=Noticias&showposts=10"); 
         while($recent->have_posts()) : $recent->the_post();
       ?> 
                
