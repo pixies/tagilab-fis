@@ -52,10 +52,10 @@
 			  
 			  
 			  
-			   <div class="borda col s12 m6 l12">
+			   <div class=" col s12 m6 l12">
               	<img class="center-align" alt="Logotipo FIS" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-white-footer.png">
                 <h6 class="bold white-text">Faculdade de Integração do Sertão</h6>
-                <p class="borda grey-text text-lighten-4">Rua João Luiz de Melo, 2110, Bairro Tancredo Neves CEP: 56909-205 Serra Talhada - PE
+                <p class=" grey-text text-lighten-4">Rua João Luiz de Melo, 2110, Bairro Tancredo Neves CEP: 56909-205 Serra Talhada - PE
 Contato: sesst@fis.edu.br</p>
               </div>
 			  
