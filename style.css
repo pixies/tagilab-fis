@@ -15,7 +15,9 @@ The theme css is in assets/css/style.css
 */
 
 
-
+.slider .indicators .indicator-item.active {
+    background-color: #1E88E5;
+}
 
         
 .z-depth-3, .img-link:hover, .effect-honey:hover  {
