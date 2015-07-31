@@ -19,7 +19,15 @@ The theme css is in assets/css/style.css
     background-color: #1E88E5;
 }
 
-        
+.collection a.collection-item:hover:not(.active) {
+    background-color: #1E88E5;
+}
+.collection a.collection-item {
+    display: block;
+    transition: all 0.25s ease 0s;
+    color: #1E88E5;
+} 
+       
 .z-depth-3, .img-link:hover, .effect-honey:hover  {
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
